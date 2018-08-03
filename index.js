@@ -18,7 +18,7 @@ app.use(
 
 app.use(
   cors({
-    CLIENT_ORIGIN
+    origin: CLIENT_ORIGIN
   })
 );
 
